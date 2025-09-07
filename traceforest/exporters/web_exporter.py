@@ -1,8 +1,8 @@
 import requests
 
-from flametree.exporters import Exporter
-from flametree.nodes import CallNode
-from flametree.constants import DEFAULT_WEB_EXPORTER_URL
+from traceforest.exporters import Exporter
+from traceforest.nodes import CallNode
+from traceforest.constants import DEFAULT_WEB_EXPORTER_URL
 
 
 class WebExporter(Exporter):

@@ -1,5 +1,5 @@
 from .exporter import Exporter
-from flametree.nodes import CallNode
+from traceforest.nodes import CallNode
 
 
 class ShellExporter(Exporter):

@@ -1,5 +1,5 @@
 [project]
-name = "flame-tree"
+name = "traceforest"
 version = "0.1.0"
 description = "High-performance Python profiler that generates interactive call tree visualizations to identify execution bottlenecks."
 authors = [
@@ -18,7 +18,7 @@ dev = [
 
 [tool.poetry]
 packages = [
-    { include = "flametree" }
+    { include = "traceforest" }
 ]
 
 [build-system]

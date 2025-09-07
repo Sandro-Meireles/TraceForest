@@ -1,8 +1,8 @@
 import sys
 import time
 
-from flametree.nodes import CallNode
-from flametree.exporters import Exporter, WebExporter
+from traceforest.nodes import CallNode
+from traceforest.exporters import Exporter, WebExporter
 
 
 class Profiler:

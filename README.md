@@ -1,16 +1,16 @@
-# 🔥 FlameTree
+# 🔥 TraceForest
 
 > High-performance Python profiler that generates interactive call tree visualizations to identify execution bottlenecks.
 
 [![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-FlameTree is a blazing-fast Python profiler that captures function calls in real-time and presents them as beautiful, interactive flame tree visualizations. Perfect for identifying performance bottlenecks and understanding code execution flow.
+TraceForest is a blazing-fast Python profiler that captures function calls in real-time and presents them as beautiful, interactive tree visualizations. Perfect for identifying performance bottlenecks and understanding code execution flow.
 
 ## ✨ Features
 
 - 🚀 **Real-time profiling** - Captures function calls as they happen
-- 🌳 **Interactive flame trees** - Beautiful hierarchical visualizations
+- 🌳 **Interactive trees** - Beautiful hierarchical visualizations
 - 🎨 **Modern web interface** - Clean, responsive design with dark theme
 - 📊 **Detailed metrics** - Precise timing information for each function
 - 🔍 **Deep call analysis** - See the complete execution path
@@ -22,13 +22,13 @@ FlameTree is a blazing-fast Python profiler that captures function calls in real
 ### Installation
 
 ```bash
-pip install flame-tree
+pip install traceforest
 ```
 
 ### Basic Usage
 
 ```python
-from flametree import Profiler
+from traceforest import Profiler
 
 # Create profiler instance
 profiler = Profiler()
@@ -51,16 +51,16 @@ profiler.export()
 
 ### Web Visualization
 
-After running `export()`, Flame-Tree will:
+After running `export()`, TraceForest will:
 1. Generate a unique profiling session
-2. Open your browser to view the interactive flame tree
+2. Open your browser to view the interactive tree
 
 ## 📖 Detailed Usage
 
 ### Profiling Classes and Methods
 
 ```python
-from flametree import Profiler
+from traceforest import Profiler
 
 class MyClass:
     def method_a(self):

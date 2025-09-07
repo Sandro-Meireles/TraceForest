@@ -2,7 +2,7 @@ from abc import ABCMeta, abstractmethod
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
-    from flametree.nodes import CallNode
+    from traceforest.nodes import CallNode
 
 
 class Exporter(metaclass=ABCMeta):
