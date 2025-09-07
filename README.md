@@ -1,4 +1,4 @@
-# 🔥 TraceForest
+# TraceForest
 
 > High-performance Python profiler that generates interactive call tree visualizations to identify execution bottlenecks.
 
@@ -7,17 +7,17 @@
 
 TraceForest is a blazing-fast Python profiler that captures function calls in real-time and presents them as beautiful, interactive tree visualizations. Perfect for identifying performance bottlenecks and understanding code execution flow.
 
-## ✨ Features
+## Features
 
-- 🚀 **Real-time profiling** - Captures function calls as they happen
-- 🌳 **Interactive trees** - Beautiful hierarchical visualizations
-- 🎨 **Modern web interface** - Clean, responsive design with dark theme
-- 📊 **Detailed metrics** - Precise timing information for each function
-- 🔍 **Deep call analysis** - See the complete execution path
-- 💾 **Persistent storage** - Save and share profiling sessions
-- 🎯 **Zero configuration** - Start profiling with just a few lines of code
+- **Real-time profiling** - Captures function calls as they happen
+- **Interactive trees** - Beautiful hierarchical visualizations
+- **Modern web interface** - Clean, responsive design with dark theme
+- **Detailed metrics** - Precise timing information for each function
+- **Deep call analysis** - See the complete execution path
+- **Persistent storage** - Save and share profiling sessions
+- **Zero configuration** - Start profiling with just a few lines of code
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -55,7 +55,7 @@ After running `export()`, TraceForest will:
 1. Generate a unique profiling session
 2. Open your browser to view the interactive tree
 
-## 📖 Detailed Usage
+## Detailed Usage
 
 ### Profiling Classes and Methods
 
@@ -80,7 +80,7 @@ profiler.stop()
 profiler.export()
 ```
 
-## 🎨 Web Interface
+## Web Interface
 
 The web interface provides:
 
@@ -89,7 +89,7 @@ The web interface provides:
 - **Detailed timing information** - Precise millisecond measurements
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -99,10 +99,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Made with 🔥 by developers, for developers**
