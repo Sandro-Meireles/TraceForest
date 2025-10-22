@@ -1,6 +1,6 @@
 [project]
 name = "traceforest"
-version = "0.1.1"
+version = "0.1.5"
 description = "High-performance Python profiler that generates interactive call tree visualizations to identify execution bottlenecks."
 authors = [
     {name = "sandro.meireles",email = "sandro.meirelesdev@gmail.com"}
